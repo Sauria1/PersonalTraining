@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import Customers from "./components/Customers.jsx";
 import Trainings from "./components/Trainings.jsx";
 import Error from "./components/Error.jsx";
 import Calendar from "./components/Calendar.jsx";
 import './index.css';
 
-const router = createBrowserRouter( [
+const router = createHashRouter( [
     {
-        path: "/PersonalTraining/",
+        path: "/",
         element: <App />,
         errorElement: <Error />,
         children: [
