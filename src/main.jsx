@@ -10,7 +10,7 @@ import './index.css';
 
 const router = createBrowserRouter( [
     {
-        path: "/",
+        path: "/PersonalTraining/",
         element: <App />,
         errorElement: <Error />,
         children: [

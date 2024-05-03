@@ -18,9 +18,9 @@ function App() {
             </Toolbar>
         </AppBar>
         <nav>
-            <Link to={"/"}>Customers <AccountBoxIcon fontSize="small"/></Link>
-            <Link to={"/trainings"}>Trainings <SportsTennisIcon fontSize="small"/></Link>
-            <Link to={"/calendar"}>Calendar <DateRangeRoundedIcon fontSize="small"/></Link>
+            <Link to={"/PersonalTraining/"}>Customers <AccountBoxIcon fontSize="small"/></Link>
+            <Link to={"/PersonalTraining/trainings"}>Trainings <SportsTennisIcon fontSize="small"/></Link>
+            <Link to={"/PersonalTraining/calendar"}>Calendar <DateRangeRoundedIcon fontSize="small"/></Link>
         </nav>
         <Outlet />
     </div>
